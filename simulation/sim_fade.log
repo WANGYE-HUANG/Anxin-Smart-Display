@@ -1,0 +1,101 @@
+Reading D:/ModelsimSE/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# vsim -L eg_lib -do {run -all; quit -f} -l transcript_fade.log -lib simwork -c tb_800_hdmi 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: nofile(130): in protected region.
+# ** Warning: nofile(130): in protected region.
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: tb_800_hdmi.v(14): (vopt-2685) [TFMPC] - Too few port connections for 'video'.  Expected 30, found 27.
+# 
+# ** Warning: tb_800_hdmi.v(14): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_frame'.
+# 
+# ** Warning: tb_800_hdmi.v(14): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_source_y'.
+# 
+# ** Warning: tb_800_hdmi.v(14): (vopt-2718) [TFMPC] - Missing connection for port 'active_shift'.
+# 
+# ** Warning: tb_800_hdmi.v(34): (vopt-2685) [TFMPC] - Too few port connections for 'overlay'.  Expected 21, found 20.
+# 
+# ** Warning: tb_800_hdmi.v(34): (vopt-2718) [TFMPC] - Missing connection for port 'error_code'.
+# 
+# ** Warning: tb_800_hdmi.v(40): (vopt-2685) [TFMPC] - Too few port connections for 'reference'.  Expected 21, found 20.
+# 
+# ** Warning: tb_800_hdmi.v(40): (vopt-2718) [TFMPC] - Missing connection for port 'error_code'.
+# 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_800_hdmi(fast)
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (11 or 11) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (9 or 9) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (96 or 96) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (24 or 24) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_800_hdmi/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# run -all 
+# PASS: real encrypted Anlogic HDMI core + official EG simulation library + SDRAM renderer, zero rejected pixels and fixed1056/628 cadence
+# PASS: input profile=          0, original SDRAM source -> aspect-fit -> B+032/C125percent -> wave/status/Chinese overlay -> actual TMDS pixels exact; complete frames=          4
+# PASS: Chinese normal and emergency banners through actual TMDS output, normal=          1 alert=          3; frame-atomic mode changes
+# ** Note: $finish    : tb_800_hdmi.v(144)
+#    Time: 115312026 ns  Iteration: 0  Instance: /tb_800_hdmi

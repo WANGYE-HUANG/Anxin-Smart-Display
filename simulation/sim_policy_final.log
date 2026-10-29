@@ -1,0 +1,97 @@
+Reading D:/ModelsimSE/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# vsim -L eg_lib -do {run -all; quit -f} -l transcript_policy_final.log -lib simwork -c tb_slide_policy eg_lib.glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: video_pll.v(94): (vopt-2241) Connection width does not match width of port 'load_reg'. The port definition is at: D:\anlu TD\TD\sim_release\eg4\eg_phy_pll.v(25).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: nofile(130): in protected region.
+# ** Warning: nofile(130): in protected region.
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\anlu TD\TD\sim_release\eg4\eg_logic_ramfifo.v(177): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_slide_policy(fast)
+# Loading eg_lib.EG_PHY_PLL(fast)
+# Loading eg_lib.glbl(fast)
+# ** Warning: (vsim-3015) video_pll.v(94): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'load_reg'.
+# 
+#         Region: /tb_slide_policy/dut/pll/pll_inst
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (11 or 11) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (9 or 9) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (96 or 96) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'bea'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (24 or 24) does not match connection size (32) for port 'dib'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# ** Warning: (vsim-3015) D:/anlu TD/TD/sim_release/eg4/eg_logic_ramfifo.v(177): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'beb'.
+# 
+#         Region: /tb_slide_policy/dut/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5
+# run -all 
+# ******************** : The Attribute            REFCLK_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to           5.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             FBCLK_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to           4.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             CLKC0_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to          25.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             CLKC1_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to           5.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             CLKC2_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to          25.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             CLKC3_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to           1.  Legal values for this attribute are           1 to         128.
+# ******************** : The Attribute             CLKC4_DIV on pll instance tb_slide_policy.dut.pll.pll_inst.para_int_range_chk is set to           1.  Legal values for this attribute are           1 to         128.
+# PASS: exact top-level KEY13 selection, frame-atomic mode, fade preservation and manual/tone/seek/source-switch bypass
+# ** Note: $finish    : tb_slide_policy.v(24)
+#    Time: 850 ns  Iteration: 1  Instance: /tb_slide_policy

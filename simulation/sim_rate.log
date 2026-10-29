@@ -1,0 +1,21 @@
+Reading D:/ModelsimSE/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# vsim -do {run -all; quit -f} -l transcript_rate.log -lib simwork -c tb_800_rate 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_800_rate(fast)
+# run -all 
+# PASS: real 40MHz clock, 1,600,000 cycles/40ms gives 1920 PCM samples (48kHz), 40 ACR strobes (1kHz), tone active, no faults
+# ** Note: $finish    : tb_800_rate.v(16)
+#    Time: 40000301 ns  Iteration: 0  Instance: /tb_800_rate

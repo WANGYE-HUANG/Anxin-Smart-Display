@@ -1,0 +1,37 @@
+Reading D:/ModelsimSE/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# vsim -do {run -all; quit -f} -l transcript_system.log -lib simwork -c tb_800_system 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: tb_800_system.sv(28): (vopt-2685) [TFMPC] - Too few port connections for 'video'.  Expected 30, found 27.
+# 
+# ** Warning: tb_800_system.sv(28): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_frame'.
+# 
+# ** Warning: tb_800_system.sv(28): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_source_y'.
+# 
+# ** Warning: tb_800_system.sv(28): (vopt-2718) [TFMPC] - Missing connection for port 'active_shift'.
+# 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.tb_800_system(fast)
+# Loading work.fat_bmp_check(fast)
+# Loading work.generic_bmp_loader(fast)
+# Loading work.frame_scaler(fast)
+# Loading work.burst_sdram(fast)
+# Loading work.sdram_model(fast)
+# Loading work.line_video(fast)
+# run -all 
+# PASS: first full FAT/loader/SDRAM/bilinear/scanout path
+# PASS: fragmented FAT -> odd-width BMP padding filter -> CDC source loader -> real SDRAM -> bilinear writes -> both native scanout pages pixel exact; WAV loops; bounds/negative header reject
+# ** Note: $finish    : tb_800_system.sv(103)
+#    Time: 1130712350 ns  Iteration: 2  Instance: /tb_800_system

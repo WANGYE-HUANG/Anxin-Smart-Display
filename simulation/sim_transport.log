@@ -1,0 +1,37 @@
+Reading D:/ModelsimSE/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# vsim -do {run -all; quit -f} -l transcript_transport.log -lib simwork -c tb_800_transport 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 34, found 29.
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'alt_profile'.
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'test_profile'.
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_profile'.
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_height'.
+# 
+# ** Warning: tb_800_transport.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_width'.
+# 
+# ** Warning: tb_800_transport.v(115): (vopt-2685) [TFMPC] - Too few port connections for 'audio'.  Expected 26, found 25.
+# 
+# ** Warning: tb_800_transport.v(115): (vopt-2718) [TFMPC] - Missing connection for port 'seek_ready'.
+# 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_800_transport(fast)
+# run -all 
+# PASS: tone park, pause silence/phase hold, resume, KEY7 toggle, KEY6 voice, KEY1 priority, manual selected-page voice recovery, continuous valid/ACR; mixed320x240/640x360 FAT decoder with optional manifest absent, paused display tuning and parameter preservation, user sequences K4/5->K0, K0->K6, K0->K4/5->K0 or K6, K4/5->K6 all play selected segment without two-key unlock; K1 overrides an active seek; exact FAT PCM bytes and samples, no FIFO faults, images retained
+# ** Note: $finish    : tb_800_transport.v(209)
+#    Time: 2705122 ps  Iteration: 2  Instance: /tb_800_transport
