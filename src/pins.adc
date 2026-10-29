@@ -1,0 +1,30 @@
+set_pin_assignment {clk} {LOCATION = R7; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {sw0_n} {LOCATION = A9; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {sd_clk} {LOCATION = F15; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {sd_cs} {LOCATION = F13; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {sd_mosi} {LOCATION = F14; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {sd_miso} {LOCATION = D14; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[0]} {LOCATION = B14; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[1]} {LOCATION = B15; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[2]} {LOCATION = B16; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[3]} {LOCATION = C15; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[4]} {LOCATION = C16; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[5]} {LOCATION = E13; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[6]} {LOCATION = E16; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {led[7]} {LOCATION = F16; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment {uart_tx} {LOCATION = D12; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment {HDMI_CLK_P} {LOCATION = P1; IOSTANDARD = LVDS33; PULLTYPE = NONE;}
+set_pin_assignment {HDMI_D0_P} {LOCATION = N1; IOSTANDARD = LVDS33; PULLTYPE = NONE;}
+set_pin_assignment {HDMI_D1_P} {LOCATION = P4; IOSTANDARD = LVDS33; PULLTYPE = NONE;}
+set_pin_assignment {HDMI_D2_P} {LOCATION = J3; IOSTANDARD = LVDS33; PULLTYPE = NONE;}
+
+set_pin_assignment {key_col[0]} {LOCATION = E11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP;}
+set_pin_assignment {key_col[1]} {LOCATION = D11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP;}
+set_pin_assignment {key_col[2]} {LOCATION = C11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP;}
+set_pin_assignment {key_col[3]} {LOCATION = F10; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP;}
+set_pin_assignment {key_row[0]} {LOCATION = D9; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {key_row[1]} {LOCATION = F9; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {key_row[2]} {LOCATION = C10; IOSTANDARD = LVCMOS33;}
+set_pin_assignment {key_row[3]} {LOCATION = E10; IOSTANDARD = LVCMOS33;}

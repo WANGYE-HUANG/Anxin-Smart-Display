@@ -1,0 +1,23 @@
+{
+  "project": "安芯智显多媒体终端",
+  "top": "av_slide",
+  "device": "EG4S20BG256",
+  "source_freeze": "2026-10-26",
+  "packaged": "2026-10-29",
+  "td_version": "6.2.168116",
+  "bit_sha256": "77457ea839a697e7ed2ff5772121965785977e7795414ff748f05724471d1a26",
+  "source_unchanged": true,
+  "setup_wns_ns": 0.187,
+  "hold_wns_ns": 0.03,
+  "hardware_functional_acceptance": "user confirmed",
+  "flash_cold_boot": "user confirmed after manual programming",
+  "final_version_extended_endurance": "not claimed",
+  "hdmi_output": [
+    800,
+    600
+  ],
+  "audio_hz": 48000,
+  "audio_duration_seconds": 24,
+  "external_encrypted_ip": "src/hdmi_core.enc.v, board-supplied; original author markings retained",
+  "media_source": "restored campus poster backup and Xiaoxiao dry voice, SHA-256 checked"
+}

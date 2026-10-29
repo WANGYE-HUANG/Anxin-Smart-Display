@@ -1,0 +1,122 @@
+standard
+***Report Model: av_slide Device: EG4S20BG256***
+
+IO Statistics
+#IO                        27   out of    188   14.36%
+  #input                    7
+  #output                  20
+  #inout                    0
+
+Utilization Statistics
+#lut                    15067   out of  19600   76.87%
+#reg                     7050   out of  19600   35.97%
+#le                     16113
+  #lut only              9063   out of  16113   56.25%
+  #reg only              1046   out of  16113    6.49%
+  #lut&reg               6004   out of  16113   37.26%
+#bram                      36   out of     64   56.25%
+  #bram9k                  36
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                       23   out of     29   79.31%
+#pad                       31   out of    188   16.49%
+  #ireg                     5
+  #oreg                     9
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       1   out of     16    6.25%
+
+Report Clock Domain Luts:
+
+---------------------------------------------------------------------------------------------------------------------------
+  Index   |  Name                  |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+---------------------------------------------------------------------------------------------------------------------------
+  #1      |  clk50                 |  50MHz       |  2578           |  0                |  0             |  8      |  1
+  #2      |  pll/pll_inst.clkc[0]  |  40MHz       |  3894           |  0                |  0             |  36     |  22
+  #3      |  pll/pll_inst.clkc[1]  |  200MHz      |  41             |  0                |  0             |  0      |  0
+  #4      |  pll/pll_inst.clkc[2]  |  40MHz       |  7              |  0                |  0             |  0      |  0
+---------------------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet                             Type               DriverType         Driver                Fanout
+#1        pll/clk0_buf                         Global             pll                pll/pll_inst.clkc0    2551
+#2        clk_dup_1                            Global             io                 clk_syn_2.di          1908
+#3        phy/u0_lane_lvds_8_1/I_serial_clk    Global             pll                pll/pll_inst.clkc1    28
+#4        memshift                             Global             pll                pll/pll_inst.clkc2    0
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                  |Module                             |le      |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------------------------------+
+|top                                       |av_slide                           |16113   |12336   |2731    |7064    |36      |23      |
+|  adjust                                  |image_adjust                       |113     |83      |30      |34      |0       |1       |
+|  audio                                   |wav_audio                          |697     |458     |148     |413     |8       |0       |
+|    fifo                                  |audio_fifo                         |140     |86      |16      |112     |8       |0       |
+|  bridge                                  |rgb_to_hdmi_raster                 |18      |12      |3       |14      |0       |0       |
+|  control                                 |transport_control                  |21      |21      |0       |14      |0       |0       |
+|  controller                              |burst_sdram                        |219     |179     |39      |91      |0       |0       |
+|  core                                    |hdmi_1_4b_transmitter_core_wrapper |1686    |1212    |198     |1295    |14      |0       |
+|    u0_reset_sync                         |hdmi_1_4b_tx_reset_sync            |9       |1       |0       |8       |0       |0       |
+|    u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                  |2       |2       |0       |0       |0       |0       |
+|      u_iic_master_wrapper                |iic_master_wrapper                 |2       |2       |0       |0       |0       |0       |
+|        u_iic_receiver_controller         |iic_receiver_controller            |2       |2       |0       |0       |0       |0       |
+|    u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper         |1675    |1209    |198     |1287    |14      |0       |
+|      u0_hdmi_tmds_encode                 |hdmi_tmds_encode                   |221     |141     |30      |161     |0       |0       |
+|      u1_hdmi_tmds_encode                 |hdmi_tmds_encode                   |162     |104     |30      |116     |0       |0       |
+|      u2_hdmi_tmds_encode                 |hdmi_tmds_encode                   |176     |124     |30      |117     |0       |0       |
+|      u_hdmi_data_distribution            |hdmi_data_distribution             |23      |14      |0       |23      |0       |0       |
+|      u_hdmi_island_data_assemble         |hdmi_island_data_assemble          |414     |321     |0       |414     |0       |0       |
+|      u_hdmi_island_data_gen              |hdmi_island_data_gen               |332     |283     |3       |308     |11      |0       |
+|        U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel      |212     |167     |3       |191     |11      |0       |
+|          u_w96_d1024_fifo                |w96_d1024_fifo                     |58      |48      |0       |58      |11      |0       |
+|          u_BCH_32_24_encode              |BCH_32_24_encode                   |1       |1       |0       |1       |0       |0       |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                   |6       |6       |0       |6       |0       |0       |
+|        u_audio_clock_regeneration_packet |audio_clock_regeneration_packet    |9       |5       |0       |9       |0       |0       |
+|      u_hdmi_video_data_assemble          |hdmi_video_data_assemble           |26      |14      |0       |25      |0       |0       |
+|      u_hdmi_video_source                 |hdmi_video_source                  |223     |125     |95      |42      |0       |0       |
+|      u_video_axi_stream_receiver         |video_axi_stream_receiver          |98      |83      |10      |81      |3       |0       |
+|        u_w24_d1024_fifo                  |w24_d1024_fifo                     |80      |72      |3       |75      |3       |0       |
+|  diagnostic                              |status_uart                        |123     |96      |10      |63      |0       |0       |
+|  fade                                    |fade_video                         |1124    |592     |532     |44      |0       |2       |
+|  fs                                      |fat_bmp_check                      |4682    |3738    |722     |2408    |0       |1       |
+|  information                             |info_overlay                       |2129    |2035    |84      |225     |0       |0       |
+|  keys                                    |matrix_keys                        |119     |96      |5       |75      |0       |0       |
+|  loader                                  |generic_bmp_loader                 |253     |179     |16      |213     |0       |0       |
+|  osd                                     |status_osd                         |647     |391     |256     |130     |0       |4       |
+|    hconv                                 |osd_bcd                            |67      |67      |0       |57      |0       |0       |
+|    wconv                                 |osd_bcd                            |59      |59      |0       |54      |0       |0       |
+|  phy                                     |hdmi_phy_wrapper                   |45      |36      |0       |45      |0       |0       |
+|    u0_lane_lvds_8_1                      |lane_lvds_10_1                     |16      |14      |0       |16      |0       |0       |
+|    u1_lane_lvds_8_1                      |lane_lvds_10_1                     |12      |10      |0       |12      |0       |0       |
+|    u2_lane_lvds_8_1                      |lane_lvds_10_1                     |12      |10      |0       |12      |0       |0       |
+|    u3_lane_lvds_8_1                      |lane_lvds_10_1                     |5       |2       |0       |5       |0       |0       |
+|  pll                                     |video_pll                          |0       |0       |0       |0       |0       |0       |
+|  scaler                                  |frame_scaler                       |1264    |800     |250     |835     |6       |10      |
+|    bottom_row                            |scale_row                          |0       |0       |0       |0       |3       |0       |
+|    divider                               |scale_div                          |173     |124     |27      |121     |0       |0       |
+|    top_row                               |scale_row                          |0       |0       |0       |0       |3       |0       |
+|  sd                                      |sd_block_reader                    |476     |433     |35      |273     |0       |0       |
+|    spi                                   |sd_spi_byte                        |41      |38      |3       |23      |0       |0       |
+|  source                                  |tone_audio                         |111     |101     |10      |40      |0       |2       |
+|  transition                              |slide_timing                       |371     |244     |94      |178     |0       |1       |
+|    divide                                |scale_div                          |208     |149     |27      |141     |0       |0       |
+|  video                                   |line_video                         |266     |196     |69      |134     |6       |0       |
+|    even_buffer                           |line_ram                           |2       |2       |0       |0       |3       |0       |
+|    odd_buffer                            |line_ram                           |1       |1       |0       |0       |3       |0       |
+|  wave                                    |audio_waveform                     |448     |266     |182     |57      |2       |2       |
+|  parameters                              |display_params                     |18      |18      |0       |10      |0       |0       |
++------------------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       12135  
+    #2          2       3007   
+    #3          3       1277   
+    #4          4        795   
+    #5        5-10      1249   
+    #6        11-50      700   
+    #7       51-100      87    
+    #8       101-500     19    
+  Average     2.94             
